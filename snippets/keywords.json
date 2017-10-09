@@ -1,0 +1,24 @@
+{
+  ".source.purebasic": {
+    "ProcedureUnit implementation": {
+      "prefix": "ProcedureUnit",
+      "body":"ProcedureUnit ${1:Unnamed}()\n\n\t${2:; Not implemented yet.}\n\nEndProcedureUnit"
+    },
+    "ProcedureUnitStartup implementation": {
+      "prefix": "ProcedureUnitStartup",
+      "body":"ProcedureUnitStartup ${1:Unnamed}()\n\n\t${2:; Not implemented yet.}\n\nEndProcedureUnit"
+    },
+    "ProcedureUnitShutdown implementation": {
+      "prefix": "ProcedureUnitShutdown",
+      "body":"ProcedureUnitShutdown ${1:Unnamed}()\n\n\t${2:; Not implemented yet.}\n\nEndProcedureUnit"
+    },
+    "ProcedureUnitBefore implementation": {
+      "prefix": "ProcedureUnitBefore",
+      "body":"ProcedureUnitBefore ${1:Unnamed}()\n\n\t${2:; Not implemented yet.}\n\nEndProcedureUnit"
+    },
+    "ProcedureUnitAfter implementation": {
+      "prefix": "ProcedureUnitAfter",
+      "body":"ProcedureUnitAfter ${1:Unnamed}()\n\n\t${2:; Not implemented yet.}\n\nEndProcedureUnit"
+    }
+  }
+}
