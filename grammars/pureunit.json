@@ -1,0 +1,11 @@
+{
+  "scopeName": "source.purebasic.pureunit",
+  "name": "PureUnit",
+  "patterns":
+  [
+    {
+      "match": "\\b(ProcedureUnit|ProcedureUnitStartup|ProcedureUnitShutdown|ProcedureUnitBefore|ProcedureUnitAfter|EndProcedureUnit)\\b",
+      "name": "keyword.control.purebasic.pureunit"
+    }
+  ]
+}

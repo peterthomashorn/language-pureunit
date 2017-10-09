@@ -1,0 +1,20 @@
+{
+  "name": "language-pureunit",
+  "main": "./lib/language-pureunit",
+  "version": "0.0.0",
+  "description": "Adds syntax highlighting and snippets for PureUnit to PureBasic files in Atom.",
+  "keywords": [
+    "PureBasic"
+  ],
+  "activationCommands": {
+    "atom-workspace": "language-pureunit:toggle"
+  },
+  "repository": "https://github.com/peterthomashorn/language-pureunit",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "language-purebasic": "^1.1.12"
+  }
+}
