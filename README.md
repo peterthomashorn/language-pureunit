@@ -1,6 +1,6 @@
 # PureUnit support in Atom
 
-Adds syntax highlighting and snippets for PureUnit to PureBasic files in Atom.
+Adds syntax highlighting and snippets for PureUnit to PureBasic files in Atom. This package is supposed to be used as an extension to the [language-purebasic](https://atom.io/packages/language-purebasic) package.
 
 PureUnit is an application shipped with [PureBasic](http://www.purebasic.com). It provides automated testing functionality for PureBasic code similar to other testing frameworks like JUnit or PhpUnit.
 
