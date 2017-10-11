@@ -1,0 +1,24 @@
+{
+  ".source.purebasic": {
+    "Assert( <expression> [, Message$] )": {
+      "prefix": "Assert",
+      "body": "Assert(${1:<expression>[, Message$]})${2}",
+      "description": "This macro tests any boolean expression and influences the test result accordingly."
+    },
+    "AssertString( String1$, String2$ [, Message$] )": {
+      "prefix": "AssertString",
+      "body": "AssertString(${1:String1.s}, ${2:String2.s[, Message.s]})${3}",
+      "description": "This is a special macro that is intended to test results from string functions inside (user-)libraries."
+    },
+    "Fail( [Message$] )": {
+      "prefix": "Fail",
+      "body": "Fail(\"${1:Unspecified error message}\")${2}",
+      "description": "If this macro is executed, the test will be seen as failed and the specified optional message is reported."
+    },
+    "UnitDebug( String$ )": {
+      "prefix": "UnitDebug",
+      "body": "UnitDebug(${1:\"UnitDebug\"})${2}",
+      "description": "As the tests are executed without debugger (because the debugger is an interactive tool), there is no quick and dirty way like \"Debug ...\" to print information. This command will show the specified string in the gui in a different color and also list this output in the html report."
+    }
+  }
+}
