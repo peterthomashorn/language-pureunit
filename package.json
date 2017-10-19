@@ -12,6 +12,5 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "language-purebasic": "^1.1.12"
   }
 }
