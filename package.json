@@ -1,7 +1,7 @@
 {
   "name": "language-pureunit",
   "main": "./lib/language-pureunit",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Adds syntax highlighting and snippets for PureUnit to PureBasic files in Atom.",
   "keywords": [
     "PureBasic"
@@ -11,6 +11,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
